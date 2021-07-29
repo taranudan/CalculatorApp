@@ -21,19 +21,19 @@ public class CalculatorAppSwitchCase {
 					break;
 				case '-' : 
 					r = Arithmetics.subb(a, b);
-			        UI.renderResult(a, b, op, r);
-			        break;
+			                UI.renderResult(a, b, op, r);
+			                break;
 				case '*' : 
 					r = Arithmetics.multi(a, b);
-			        UI.renderResult(a, b, op, r);
-			        break;
+			                UI.renderResult(a, b, op, r);
+			                break;
 				case '/' : 
 					r = Arithmetics.div(a, b);
-			        UI.renderResult(a, b, op, r);
-			        break;
+			        	UI.renderResult(a, b, op, r);
+			        	break;
 				default : 
 					System.out.println("The chosen operation is incorrect");
-       				System.out.println("Allowed operations: +, -, *, /");
+       					System.out.println("Allowed operations: +, -, *, /");
 			}				
 			run = UI.scanRun();
 			
